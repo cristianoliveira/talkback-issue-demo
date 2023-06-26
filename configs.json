@@ -1,0 +1,5 @@
+{
+  "api_url": "http://localhost:3000",
+  "port": 3200,
+  "tapes_folder": "tapes"
+}

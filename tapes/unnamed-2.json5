@@ -1,0 +1,65 @@
+{
+    meta: {
+        createdAt: '2023-06-26T10:28:43.863Z',
+        host: 'http://localhost:3000',
+        resHumanReadable: true,
+    },
+    req: {
+        headers: {},
+        url: '/posts',
+        method: 'POST',
+        body: 'ewogICJ0aXRsZSI6ICJUaGUgbmV3IHBvc3QiLAogICJjb250ZW50IjogInRoZSBjb250ZW50Igp9',
+    },
+    res: {
+        status: 201,
+        headers: {
+            'x-powered-by': [
+                'Express',
+            ],
+            vary: [
+                'Origin, X-HTTP-Method-Override, Accept-Encoding',
+            ],
+            'access-control-allow-credentials': [
+                'true',
+            ],
+            'cache-control': [
+                'no-cache',
+            ],
+            pragma: [
+                'no-cache',
+            ],
+            expires: [
+                '-1',
+            ],
+            'access-control-expose-headers': [
+                'Location',
+            ],
+            location: [
+                'http://localhost:3000/posts/2',
+            ],
+            'x-content-type-options': [
+                'nosniff',
+            ],
+            'content-type': [
+                'application/json; charset=utf-8',
+            ],
+            'content-length': [
+                '68',
+            ],
+            etag: [
+                'W/"44-gm88tVa9gScaQQXA/RQ7vq90C5A"',
+            ],
+            date: [
+                'Mon, 26 Jun 2023 10:28:43 GMT',
+            ],
+            connection: [
+                'close',
+            ],
+        },
+        body: {
+            title: 'The new post',
+            content: 'the content',
+            id: 2,
+        },
+    },
+}
